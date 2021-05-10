@@ -399,7 +399,7 @@ p{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-color: #cfd0cf;
+    background-color: #ebebeb;
     color: black;
 }
 
@@ -546,7 +546,7 @@ p{
 
 /* Footer */
 #footer {
-	background-color: #cfd0cf;
+	background-color: #ebebeb;
 }
 #footer .footer {
 	min-height: 200px;
@@ -554,8 +554,13 @@ p{
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
+
+#footer h1{
+	color: black;
+}
+
 #footer h2 {
-	color: white;
+	color: black;
 	font-weight: 500;
 	font-size: 1.8rem;
 	letter-spacing: 0.1rem;
@@ -579,7 +584,7 @@ p{
 	filter: grayscale(0);
 }
 #footer p {
-	color: white;
+	color: black;
 	font-size: 1.3rem;
 }
 /* End Footer */
